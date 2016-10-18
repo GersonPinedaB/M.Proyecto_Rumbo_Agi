@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_RumboAgilModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="Id_Evento" />
+    </Key>
+    <Property Name="Id_Evento" Type="int" Nullable="false" />
+    <Property Name="Lugar" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Lider">
+    <Key>
+      <PropertyRef Name="Id_Lider" />
+    </Key>
+    <Property Name="Id_Lider" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BD_RumboAgilModelStoreContainer">
+    <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lider" EntityType="Self.Lider" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

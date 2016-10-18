@@ -1,0 +1,33 @@
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\Negocio.dll
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\Dominio.dll
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+R:\RumboAgil\Progra\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+R:\RumboAgil\Progra\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+R:\RumboAgil\Progra\RumboAgil\Negocio\obj\Debug\Negocio.dll
+R:\RumboAgil\Progra\RumboAgil\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\obj\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\Iteración 2\Progra\RumboAgil\Negocio\obj\Debug\Negocio.pdb
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\Negocio.dll
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\Dominio.dll
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\obj\Debug\Negocio.dll
+R:\RumboAgil\Proyecto\RumboAgil\Negocio\obj\Debug\Negocio.pdb

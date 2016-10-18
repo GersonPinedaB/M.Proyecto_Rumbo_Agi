@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_RumboAgilModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="Id_Evento" />
+    </Key>
+    <Property Name="Id_Evento" Type="Int32" Nullable="false" />
+    <Property Name="Lugar" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Lider">
+    <Key>
+      <PropertyRef Name="Id_Lider" />
+    </Key>
+    <Property Name="Id_Lider" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BD_RumboAgilEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Evento" EntityType="Self.Evento" />
+    <EntitySet Name="Lider" EntityType="Self.Lider" />
+  </EntityContainer>
+</Schema>

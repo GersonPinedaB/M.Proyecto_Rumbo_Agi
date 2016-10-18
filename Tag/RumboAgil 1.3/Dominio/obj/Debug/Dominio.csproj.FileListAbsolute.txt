@@ -1,0 +1,59 @@
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\Dominio.dll.config
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\Dominio.dll
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\Dominio.pdb
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\EntityFramework.dll
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\EntityFramework.xml
+R:\RumboAgil\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+R:\RumboAgil\RumboAgil\Dominio\obj\Debug\Dominio.dll
+R:\RumboAgil\RumboAgil\Dominio\obj\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil\Dominio\obj\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Dominio\obj\Debug\Dominio.pdb

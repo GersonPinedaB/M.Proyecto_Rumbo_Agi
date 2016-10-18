@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_RumboAgilModelStoreContainer" CdmEntityContainer="BD_RumboAgilEntities">
+    <EntitySetMapping Name="Evento">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.Evento">
+        <MappingFragment StoreEntitySet="Evento">
+          <ScalarProperty Name="Id_Evento" ColumnName="Id_Evento" />
+          <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lider">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.Lider">
+        <MappingFragment StoreEntitySet="Lider">
+          <ScalarProperty Name="Id_Lider" ColumnName="Id_Lider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

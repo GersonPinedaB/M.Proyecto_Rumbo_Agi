@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e201779acdc4e4e9ceb474d07ee8c28" Name="Diagram1">
+        <EntityTypeShape EntityType="BD_RumboAgilModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Estado" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Evento" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Lider" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Lider_Ministerio" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Lugar" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Miembro" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Miembro_Ministerio" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Ministerio" Width="1.5" PointX="6" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Operacion" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Participante" Width="1.5" PointX="10.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Persona" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_TipoEvento" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_RumboAgilModel.T_Usuario" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Evento__Id_Est__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Evento__Id_Lid__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Evento__Id_Lug__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Evento__Id_Tip__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Operaci__Id_Ev__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Partici__Id_Ev__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Lider__Id_Lide__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Lider_M__Id_Li__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Lider_M__Id_Mi__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Miembro__Id_Mi__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Miembro__Id_Mi__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Miembro__Id_Mi__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Operaci__Id_Us__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Partici__Id_Pe__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_RumboAgilModel.FK__T_Usuario__Id_Us__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

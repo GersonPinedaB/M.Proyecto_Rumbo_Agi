@@ -1,0 +1,84 @@
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll.config
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\GestionDatos.pdb
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\Dominio.dll
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\EntityFramework.dll
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\Dominio.pdb
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\EntityFramework.xml
+R:\RumboAgil\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+R:\RumboAgil\RumboAgil\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+R:\RumboAgil\RumboAgil\GestionDatos\obj\Debug\GestionDatos.dll
+R:\RumboAgil\RumboAgil\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil 1.1\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\obj\Debug\GestionDatos.csprojResolveAssemblyReference.cache
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\obj\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\obj\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\GestionDatos.dll.config
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\EntityFramework.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\EntityFramework.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.3\GestionDatos\bin\Debug\EntityFramework.SqlServer.xml

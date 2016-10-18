@@ -1,0 +1,77 @@
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\Negocio.dll
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\Dominio.dll
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+R:\RumboAgil\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+R:\RumboAgil\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+R:\RumboAgil\RumboAgil\Negocio\obj\Debug\Negocio.dll
+R:\RumboAgil\RumboAgil\Negocio\obj\Debug\Negocio.pdb
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\Negocio.dll
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.dll
+C:\Users\user\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\RumboAgil\Negocio\obj\Debug\Negocio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\Negocio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\obj\Debug\Negocio.dll
+C:\Users\user\Desktop\RumboAgil 1.1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.dll
+C:\Users\Administrador\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Negocio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.2\Negocio\obj\Debug\Negocio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\obj\Debug\Negocio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\Negocio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\Negocio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\Dominio.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\GestionDatos.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\Dominio.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\GestionDatos.pdb
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\GERSON\Desktop\RumboAgil 1.3\Negocio\obj\Debug\Negocio.pdb

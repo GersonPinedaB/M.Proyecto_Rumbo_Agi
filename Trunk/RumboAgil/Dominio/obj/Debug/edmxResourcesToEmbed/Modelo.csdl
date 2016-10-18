@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_RumboAgilModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="T_Estado">
+    <Key>
+      <PropertyRef Name="Id_Estado" />
+    </Key>
+    <Property Name="Id_Estado" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Estado" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Evento__Id_Est__2A4B4B5E" FromRole="T_Estado" ToRole="T_Evento" />
+  </EntityType>
+  <EntityType Name="T_Evento">
+    <Key>
+      <PropertyRef Name="Id_Evento" />
+    </Key>
+    <Property Name="Id_Evento" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fecha_Inicio" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Hora_Inicio" Type="Time" Precision="7" />
+    <Property Name="Fecha_fin" Type="DateTime" Precision="0" />
+    <Property Name="Hora_fin" Type="Time" Precision="7" />
+    <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Id_Estado" Type="Byte" Nullable="false" />
+    <Property Name="Id_TipoEvento" Type="Byte" Nullable="false" />
+    <Property Name="Id_Lugar" Type="Byte" Nullable="false" />
+    <Property Name="Id_Lider" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="T_Estado" Relationship="Self.FK__T_Evento__Id_Est__2A4B4B5E" FromRole="T_Evento" ToRole="T_Estado" />
+    <NavigationProperty Name="T_Lider" Relationship="Self.FK__T_Evento__Id_Lid__2D27B809" FromRole="T_Evento" ToRole="T_Lider" />
+    <NavigationProperty Name="T_Lugar" Relationship="Self.FK__T_Evento__Id_Lug__2C3393D0" FromRole="T_Evento" ToRole="T_Lugar" />
+    <NavigationProperty Name="T_TipoEvento" Relationship="Self.FK__T_Evento__Id_Tip__2B3F6F97" FromRole="T_Evento" ToRole="T_TipoEvento" />
+    <NavigationProperty Name="T_Operacion" Relationship="Self.FK__T_Operaci__Id_Ev__30F848ED" FromRole="T_Evento" ToRole="T_Operacion" />
+    <NavigationProperty Name="T_Participante" Relationship="Self.FK__T_Partici__Id_Ev__34C8D9D1" FromRole="T_Evento" ToRole="T_Participante" />
+    <Property Name="NumeroEvento" Type="Int32" />
+  </EntityType>
+  <EntityType Name="T_Lider">
+    <Key>
+      <PropertyRef Name="Id_Lider" />
+    </Key>
+    <Property Name="Id_Lider" Type="Int16" Nullable="false" />
+    <Property Name="EnActividad" Type="Boolean" Nullable="false" />
+    <Property Name="Llamado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Evento__Id_Lid__2D27B809" FromRole="T_Lider" ToRole="T_Evento" />
+    <NavigationProperty Name="T_Persona" Relationship="Self.FK__T_Lider__Id_Lide__182C9B23" FromRole="T_Lider" ToRole="T_Persona" />
+    <NavigationProperty Name="T_Lider_Ministerio" Relationship="Self.FK__T_Lider_M__Id_Li__24927208" FromRole="T_Lider" ToRole="T_Lider_Ministerio" />
+  </EntityType>
+  <EntityType Name="T_Lider_Ministerio">
+    <Key>
+      <PropertyRef Name="Id_Ministerio" />
+      <PropertyRef Name="Id_Lider" />
+    </Key>
+    <Property Name="Id_Ministerio" Type="Byte" Nullable="false" />
+    <Property Name="Id_Lider" Type="Int16" Nullable="false" />
+    <Property Name="FechaAsignacion" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="T_Lider" Relationship="Self.FK__T_Lider_M__Id_Li__24927208" FromRole="T_Lider_Ministerio" ToRole="T_Lider" />
+    <NavigationProperty Name="T_Ministerio" Relationship="Self.FK__T_Lider_M__Id_Mi__239E4DCF" FromRole="T_Lider_Ministerio" ToRole="T_Ministerio" />
+  </EntityType>
+  <EntityType Name="T_Lugar">
+    <Key>
+      <PropertyRef Name="Id_Lugar" />
+    </Key>
+    <Property Name="Id_Lugar" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Aforo" Type="Int32" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripción" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Evento__Id_Lug__2C3393D0" FromRole="T_Lugar" ToRole="T_Evento" />
+    <Property Name="Lugar" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="T_Miembro">
+    <Key>
+      <PropertyRef Name="Id_Miembro" />
+    </Key>
+    <Property Name="Id_Miembro" Type="Int16" Nullable="false" />
+    <Property Name="TipoMiembro" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Persona" Relationship="Self.FK__T_Miembro__Id_Mi__1B0907CE" FromRole="T_Miembro" ToRole="T_Persona" />
+    <NavigationProperty Name="T_Miembro_Ministerio" Relationship="Self.FK__T_Miembro__Id_Mi__20C1E124" FromRole="T_Miembro" ToRole="T_Miembro_Ministerio" />
+  </EntityType>
+  <EntityType Name="T_Miembro_Ministerio">
+    <Key>
+      <PropertyRef Name="Id_Ministerio" />
+      <PropertyRef Name="Id_Miembro" />
+    </Key>
+    <Property Name="Id_Ministerio" Type="Byte" Nullable="false" />
+    <Property Name="Id_Miembro" Type="Int16" Nullable="false" />
+    <Property Name="Rol" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Miembro" Relationship="Self.FK__T_Miembro__Id_Mi__20C1E124" FromRole="T_Miembro_Ministerio" ToRole="T_Miembro" />
+    <NavigationProperty Name="T_Ministerio" Relationship="Self.FK__T_Miembro__Id_Mi__1FCDBCEB" FromRole="T_Miembro_Ministerio" ToRole="T_Ministerio" />
+  </EntityType>
+  <EntityType Name="T_Ministerio">
+    <Key>
+      <PropertyRef Name="Id_Ministerio" />
+    </Key>
+    <Property Name="Id_Ministerio" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Lider_Ministerio" Relationship="Self.FK__T_Lider_M__Id_Mi__239E4DCF" FromRole="T_Ministerio" ToRole="T_Lider_Ministerio" />
+    <NavigationProperty Name="T_Miembro_Ministerio" Relationship="Self.FK__T_Miembro__Id_Mi__1FCDBCEB" FromRole="T_Ministerio" ToRole="T_Miembro_Ministerio" />
+  </EntityType>
+  <EntityType Name="T_Operacion">
+    <Key>
+      <PropertyRef Name="Id_Usuario" />
+      <PropertyRef Name="Id_Evento" />
+    </Key>
+    <Property Name="Id_Usuario" Type="Int16" Nullable="false" />
+    <Property Name="Id_Evento" Type="Int16" Nullable="false" />
+    <Property Name="Operacion" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaOperacion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Motivo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Operaci__Id_Ev__30F848ED" FromRole="T_Operacion" ToRole="T_Evento" />
+    <NavigationProperty Name="T_Usuario" Relationship="Self.FK__T_Operaci__Id_Us__300424B4" FromRole="T_Operacion" ToRole="T_Usuario" />
+  </EntityType>
+  <EntityType Name="T_Participante">
+    <Key>
+      <PropertyRef Name="Id_Persona" />
+      <PropertyRef Name="Id_Evento" />
+    </Key>
+    <Property Name="Id_Persona" Type="Int16" Nullable="false" />
+    <Property Name="Id_Evento" Type="Int16" Nullable="false" />
+    <Property Name="Responsabilidad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Partici__Id_Ev__34C8D9D1" FromRole="T_Participante" ToRole="T_Evento" />
+    <NavigationProperty Name="T_Persona" Relationship="Self.FK__T_Partici__Id_Pe__33D4B598" FromRole="T_Participante" ToRole="T_Persona" />
+  </EntityType>
+  <EntityType Name="T_Persona">
+    <Key>
+      <PropertyRef Name="Id_Persona" />
+    </Key>
+    <Property Name="Id_Persona" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombres" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellidos" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cumpleaños" Type="DateTime" Precision="0" />
+    <Property Name="Direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Bautizado" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="T_Lider" Relationship="Self.FK__T_Lider__Id_Lide__182C9B23" FromRole="T_Persona" ToRole="T_Lider" />
+    <NavigationProperty Name="T_Miembro" Relationship="Self.FK__T_Miembro__Id_Mi__1B0907CE" FromRole="T_Persona" ToRole="T_Miembro" />
+    <NavigationProperty Name="T_Participante" Relationship="Self.FK__T_Partici__Id_Pe__33D4B598" FromRole="T_Persona" ToRole="T_Participante" />
+    <NavigationProperty Name="T_Usuario" Relationship="Self.FK__T_Usuario__Id_Us__276EDEB3" FromRole="T_Persona" ToRole="T_Usuario" />
+  </EntityType>
+  <EntityType Name="T_TipoEvento">
+    <Key>
+      <PropertyRef Name="Id_TipoEvento" />
+    </Key>
+    <Property Name="Id_TipoEvento" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipoEvento" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Evento" Relationship="Self.FK__T_Evento__Id_Tip__2B3F6F97" FromRole="T_TipoEvento" ToRole="T_Evento" />
+  </EntityType>
+  <EntityType Name="T_Usuario">
+    <Key>
+      <PropertyRef Name="Id_Usuario" />
+    </Key>
+    <Property Name="Id_Usuario" Type="Int16" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Clave" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="T_Operacion" Relationship="Self.FK__T_Operaci__Id_Us__300424B4" FromRole="T_Usuario" ToRole="T_Operacion" />
+    <NavigationProperty Name="T_Persona" Relationship="Self.FK__T_Usuario__Id_Us__276EDEB3" FromRole="T_Usuario" ToRole="T_Persona" />
+  </EntityType>
+  <Association Name="FK__T_Evento__Id_Est__2A4B4B5E">
+    <End Role="T_Estado" Type="Self.T_Estado" Multiplicity="1" />
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Estado">
+        <PropertyRef Name="Id_Estado" />
+      </Principal>
+      <Dependent Role="T_Evento">
+        <PropertyRef Name="Id_Estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Evento__Id_Lid__2D27B809">
+    <End Role="T_Lider" Type="Self.T_Lider" Multiplicity="1" />
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Lider">
+        <PropertyRef Name="Id_Lider" />
+      </Principal>
+      <Dependent Role="T_Evento">
+        <PropertyRef Name="Id_Lider" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Evento__Id_Lug__2C3393D0">
+    <End Role="T_Lugar" Type="Self.T_Lugar" Multiplicity="1" />
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Lugar">
+        <PropertyRef Name="Id_Lugar" />
+      </Principal>
+      <Dependent Role="T_Evento">
+        <PropertyRef Name="Id_Lugar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Evento__Id_Tip__2B3F6F97">
+    <End Role="T_TipoEvento" Type="Self.T_TipoEvento" Multiplicity="1" />
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_TipoEvento">
+        <PropertyRef Name="Id_TipoEvento" />
+      </Principal>
+      <Dependent Role="T_Evento">
+        <PropertyRef Name="Id_TipoEvento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Operaci__Id_Ev__30F848ED">
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="1" />
+    <End Role="T_Operacion" Type="Self.T_Operacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Evento">
+        <PropertyRef Name="Id_Evento" />
+      </Principal>
+      <Dependent Role="T_Operacion">
+        <PropertyRef Name="Id_Evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Partici__Id_Ev__34C8D9D1">
+    <End Role="T_Evento" Type="Self.T_Evento" Multiplicity="1" />
+    <End Role="T_Participante" Type="Self.T_Participante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Evento">
+        <PropertyRef Name="Id_Evento" />
+      </Principal>
+      <Dependent Role="T_Participante">
+        <PropertyRef Name="Id_Evento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Lider__Id_Lide__182C9B23">
+    <End Role="T_Persona" Type="Self.T_Persona" Multiplicity="1" />
+    <End Role="T_Lider" Type="Self.T_Lider" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="T_Persona">
+        <PropertyRef Name="Id_Persona" />
+      </Principal>
+      <Dependent Role="T_Lider">
+        <PropertyRef Name="Id_Lider" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Lider_M__Id_Li__24927208">
+    <End Role="T_Lider" Type="Self.T_Lider" Multiplicity="1" />
+    <End Role="T_Lider_Ministerio" Type="Self.T_Lider_Ministerio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Lider">
+        <PropertyRef Name="Id_Lider" />
+      </Principal>
+      <Dependent Role="T_Lider_Ministerio">
+        <PropertyRef Name="Id_Lider" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Lider_M__Id_Mi__239E4DCF">
+    <End Role="T_Ministerio" Type="Self.T_Ministerio" Multiplicity="1" />
+    <End Role="T_Lider_Ministerio" Type="Self.T_Lider_Ministerio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Ministerio">
+        <PropertyRef Name="Id_Ministerio" />
+      </Principal>
+      <Dependent Role="T_Lider_Ministerio">
+        <PropertyRef Name="Id_Ministerio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Miembro__Id_Mi__1B0907CE">
+    <End Role="T_Persona" Type="Self.T_Persona" Multiplicity="1" />
+    <End Role="T_Miembro" Type="Self.T_Miembro" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="T_Persona">
+        <PropertyRef Name="Id_Persona" />
+      </Principal>
+      <Dependent Role="T_Miembro">
+        <PropertyRef Name="Id_Miembro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Miembro__Id_Mi__20C1E124">
+    <End Role="T_Miembro" Type="Self.T_Miembro" Multiplicity="1" />
+    <End Role="T_Miembro_Ministerio" Type="Self.T_Miembro_Ministerio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Miembro">
+        <PropertyRef Name="Id_Miembro" />
+      </Principal>
+      <Dependent Role="T_Miembro_Ministerio">
+        <PropertyRef Name="Id_Miembro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Miembro__Id_Mi__1FCDBCEB">
+    <End Role="T_Ministerio" Type="Self.T_Ministerio" Multiplicity="1" />
+    <End Role="T_Miembro_Ministerio" Type="Self.T_Miembro_Ministerio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Ministerio">
+        <PropertyRef Name="Id_Ministerio" />
+      </Principal>
+      <Dependent Role="T_Miembro_Ministerio">
+        <PropertyRef Name="Id_Ministerio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Operaci__Id_Us__300424B4">
+    <End Role="T_Usuario" Type="Self.T_Usuario" Multiplicity="1" />
+    <End Role="T_Operacion" Type="Self.T_Operacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Usuario">
+        <PropertyRef Name="Id_Usuario" />
+      </Principal>
+      <Dependent Role="T_Operacion">
+        <PropertyRef Name="Id_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Partici__Id_Pe__33D4B598">
+    <End Role="T_Persona" Type="Self.T_Persona" Multiplicity="1" />
+    <End Role="T_Participante" Type="Self.T_Participante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="T_Persona">
+        <PropertyRef Name="Id_Persona" />
+      </Principal>
+      <Dependent Role="T_Participante">
+        <PropertyRef Name="Id_Persona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__T_Usuario__Id_Us__276EDEB3">
+    <End Role="T_Persona" Type="Self.T_Persona" Multiplicity="1" />
+    <End Role="T_Usuario" Type="Self.T_Usuario" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="T_Persona">
+        <PropertyRef Name="Id_Persona" />
+      </Principal>
+      <Dependent Role="T_Usuario">
+        <PropertyRef Name="Id_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BD_RumboAgilEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="T_Estado" EntityType="Self.T_Estado" />
+    <EntitySet Name="T_Evento" EntityType="Self.T_Evento" />
+    <EntitySet Name="T_Lider" EntityType="Self.T_Lider" />
+    <EntitySet Name="T_Lider_Ministerio" EntityType="Self.T_Lider_Ministerio" />
+    <EntitySet Name="T_Lugar" EntityType="Self.T_Lugar" />
+    <EntitySet Name="T_Miembro" EntityType="Self.T_Miembro" />
+    <EntitySet Name="T_Miembro_Ministerio" EntityType="Self.T_Miembro_Ministerio" />
+    <EntitySet Name="T_Ministerio" EntityType="Self.T_Ministerio" />
+    <EntitySet Name="T_Operacion" EntityType="Self.T_Operacion" />
+    <EntitySet Name="T_Participante" EntityType="Self.T_Participante" />
+    <EntitySet Name="T_Persona" EntityType="Self.T_Persona" />
+    <EntitySet Name="T_TipoEvento" EntityType="Self.T_TipoEvento" />
+    <EntitySet Name="T_Usuario" EntityType="Self.T_Usuario" />
+    <AssociationSet Name="FK__T_Evento__Id_Est__2A4B4B5E" Association="Self.FK__T_Evento__Id_Est__2A4B4B5E">
+      <End Role="T_Estado" EntitySet="T_Estado" />
+      <End Role="T_Evento" EntitySet="T_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Evento__Id_Lid__2D27B809" Association="Self.FK__T_Evento__Id_Lid__2D27B809">
+      <End Role="T_Lider" EntitySet="T_Lider" />
+      <End Role="T_Evento" EntitySet="T_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Evento__Id_Lug__2C3393D0" Association="Self.FK__T_Evento__Id_Lug__2C3393D0">
+      <End Role="T_Lugar" EntitySet="T_Lugar" />
+      <End Role="T_Evento" EntitySet="T_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Evento__Id_Tip__2B3F6F97" Association="Self.FK__T_Evento__Id_Tip__2B3F6F97">
+      <End Role="T_TipoEvento" EntitySet="T_TipoEvento" />
+      <End Role="T_Evento" EntitySet="T_Evento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Operaci__Id_Ev__30F848ED" Association="Self.FK__T_Operaci__Id_Ev__30F848ED">
+      <End Role="T_Evento" EntitySet="T_Evento" />
+      <End Role="T_Operacion" EntitySet="T_Operacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Partici__Id_Ev__34C8D9D1" Association="Self.FK__T_Partici__Id_Ev__34C8D9D1">
+      <End Role="T_Evento" EntitySet="T_Evento" />
+      <End Role="T_Participante" EntitySet="T_Participante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Lider__Id_Lide__182C9B23" Association="Self.FK__T_Lider__Id_Lide__182C9B23">
+      <End Role="T_Persona" EntitySet="T_Persona" />
+      <End Role="T_Lider" EntitySet="T_Lider" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Lider_M__Id_Li__24927208" Association="Self.FK__T_Lider_M__Id_Li__24927208">
+      <End Role="T_Lider" EntitySet="T_Lider" />
+      <End Role="T_Lider_Ministerio" EntitySet="T_Lider_Ministerio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Lider_M__Id_Mi__239E4DCF" Association="Self.FK__T_Lider_M__Id_Mi__239E4DCF">
+      <End Role="T_Ministerio" EntitySet="T_Ministerio" />
+      <End Role="T_Lider_Ministerio" EntitySet="T_Lider_Ministerio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Miembro__Id_Mi__1B0907CE" Association="Self.FK__T_Miembro__Id_Mi__1B0907CE">
+      <End Role="T_Persona" EntitySet="T_Persona" />
+      <End Role="T_Miembro" EntitySet="T_Miembro" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Miembro__Id_Mi__20C1E124" Association="Self.FK__T_Miembro__Id_Mi__20C1E124">
+      <End Role="T_Miembro" EntitySet="T_Miembro" />
+      <End Role="T_Miembro_Ministerio" EntitySet="T_Miembro_Ministerio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Miembro__Id_Mi__1FCDBCEB" Association="Self.FK__T_Miembro__Id_Mi__1FCDBCEB">
+      <End Role="T_Ministerio" EntitySet="T_Ministerio" />
+      <End Role="T_Miembro_Ministerio" EntitySet="T_Miembro_Ministerio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Operaci__Id_Us__300424B4" Association="Self.FK__T_Operaci__Id_Us__300424B4">
+      <End Role="T_Usuario" EntitySet="T_Usuario" />
+      <End Role="T_Operacion" EntitySet="T_Operacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Partici__Id_Pe__33D4B598" Association="Self.FK__T_Partici__Id_Pe__33D4B598">
+      <End Role="T_Persona" EntitySet="T_Persona" />
+      <End Role="T_Participante" EntitySet="T_Participante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__T_Usuario__Id_Us__276EDEB3" Association="Self.FK__T_Usuario__Id_Us__276EDEB3">
+      <End Role="T_Persona" EntitySet="T_Persona" />
+      <End Role="T_Usuario" EntitySet="T_Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

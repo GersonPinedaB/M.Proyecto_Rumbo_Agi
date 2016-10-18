@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_RumboAgilModelStoreContainer" CdmEntityContainer="BD_RumboAgilEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Estado">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Estado">
+        <MappingFragment StoreEntitySet="T_Estado">
+          <ScalarProperty Name="Id_Estado" ColumnName="Id_Estado" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Evento">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Evento">
+        <MappingFragment StoreEntitySet="T_Evento">
+          <ScalarProperty Name="NumeroEvento" ColumnName="NumeroEvento" />
+          <ScalarProperty Name="Id_Evento" ColumnName="Id_Evento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha_Inicio" ColumnName="Fecha_Inicio" />
+          <ScalarProperty Name="Hora_Inicio" ColumnName="Hora_Inicio" />
+          <ScalarProperty Name="Fecha_fin" ColumnName="Fecha_fin" />
+          <ScalarProperty Name="Hora_fin" ColumnName="Hora_fin" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="Id_Estado" ColumnName="Id_Estado" />
+          <ScalarProperty Name="Id_TipoEvento" ColumnName="Id_TipoEvento" />
+          <ScalarProperty Name="Id_Lugar" ColumnName="Id_Lugar" />
+          <ScalarProperty Name="Id_Lider" ColumnName="Id_Lider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Lider">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Lider">
+        <MappingFragment StoreEntitySet="T_Lider">
+          <ScalarProperty Name="Id_Lider" ColumnName="Id_Lider" />
+          <ScalarProperty Name="EnActividad" ColumnName="EnActividad" />
+          <ScalarProperty Name="Llamado" ColumnName="Llamado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Lider_Ministerio">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Lider_Ministerio">
+        <MappingFragment StoreEntitySet="T_Lider_Ministerio">
+          <ScalarProperty Name="Id_Ministerio" ColumnName="Id_Ministerio" />
+          <ScalarProperty Name="Id_Lider" ColumnName="Id_Lider" />
+          <ScalarProperty Name="FechaAsignacion" ColumnName="FechaAsignacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Lugar">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Lugar">
+        <MappingFragment StoreEntitySet="T_Lugar">
+          <ScalarProperty Name="Lugar" ColumnName="Lugar" />
+          <ScalarProperty Name="Id_Lugar" ColumnName="Id_Lugar" />
+          <ScalarProperty Name="Aforo" ColumnName="Aforo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Descripción" ColumnName="Descripción" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Miembro">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Miembro">
+        <MappingFragment StoreEntitySet="T_Miembro">
+          <ScalarProperty Name="Id_Miembro" ColumnName="Id_Miembro" />
+          <ScalarProperty Name="TipoMiembro" ColumnName="TipoMiembro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Miembro_Ministerio">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Miembro_Ministerio">
+        <MappingFragment StoreEntitySet="T_Miembro_Ministerio">
+          <ScalarProperty Name="Id_Ministerio" ColumnName="Id_Ministerio" />
+          <ScalarProperty Name="Id_Miembro" ColumnName="Id_Miembro" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Ministerio">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Ministerio">
+        <MappingFragment StoreEntitySet="T_Ministerio">
+          <ScalarProperty Name="Id_Ministerio" ColumnName="Id_Ministerio" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Operacion">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Operacion">
+        <MappingFragment StoreEntitySet="T_Operacion">
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Id_Evento" ColumnName="Id_Evento" />
+          <ScalarProperty Name="Operacion" ColumnName="Operacion" />
+          <ScalarProperty Name="FechaOperacion" ColumnName="FechaOperacion" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Participante">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Participante">
+        <MappingFragment StoreEntitySet="T_Participante">
+          <ScalarProperty Name="Id_Persona" ColumnName="Id_Persona" />
+          <ScalarProperty Name="Id_Evento" ColumnName="Id_Evento" />
+          <ScalarProperty Name="Responsabilidad" ColumnName="Responsabilidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Persona">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Persona">
+        <MappingFragment StoreEntitySet="T_Persona">
+          <ScalarProperty Name="Id_Persona" ColumnName="Id_Persona" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Cumpleaños" ColumnName="Cumpleaños" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Bautizado" ColumnName="Bautizado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_TipoEvento">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_TipoEvento">
+        <MappingFragment StoreEntitySet="T_TipoEvento">
+          <ScalarProperty Name="Id_TipoEvento" ColumnName="Id_TipoEvento" />
+          <ScalarProperty Name="TipoEvento" ColumnName="TipoEvento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Usuario">
+      <EntityTypeMapping TypeName="BD_RumboAgilModel.T_Usuario">
+        <MappingFragment StoreEntitySet="T_Usuario">
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
